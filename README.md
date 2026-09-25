@@ -1,8 +1,10 @@
-# deployments/monitoring/config-blockscout/frontend/frontend.env,
+# BLOCKSCOUT FROUNTEND TLS VERIFICATION:
 
 `NODE_TLS_REJECT_UNAUTHORIZED=0` is global, not scoped to one proxy
 
-## Claim being tested
+## Claim being tested in;
+
+deployments/monitoring/config-blockscout/frontend/frontend.env,
 
 `NODE_TLS_REJECT_UNAUTHORIZED=0` is commonly added as a workaround for a
 single TLS-intercepting corporate proxy (e.g. ZScaler), with the intent
